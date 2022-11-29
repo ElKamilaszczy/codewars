@@ -1,4 +1,9 @@
 #!/bin/bash
+: '
+https://www.codewars.com/kata/59d0ee709f0cbcf65400003b
+
+Convert accordingly input - sort by state, and then by name within state
+'
 # Associative array DOES NOT guarantee the order
 declare -A states=(
     ['AZ']='Arizona' ['CA']='California' ['ID']='Idaho' ['IN']='Indiana' ['MA']='Massachusetts' ['OK']='Oklahoma' ['PA']='Pennsylvania' ['VA']='Virginia'
